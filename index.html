@@ -8,9 +8,8 @@
     <title>Terapias Complementarias Online</title>
     <link rel="stylesheet" href="style/estilo.css" />
   </head>
-
+  
   <body> 
-    <!-- Menú de navegación -->
     <header>
       <nav>
         <div class="menu-icon" id="menuIcon">&#9776;</div>
@@ -23,7 +22,6 @@
     </header>
 
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v20.0" nonce="N5q5Vb6F"></script>
     
         <h1 class="subtitulo">Radio Dale Play!</h1>
         <div class="radio">
@@ -45,9 +43,6 @@
         <li>Limpieza energética</li>
       </ol>
     </section>
-
-
-    <div class="fb-comments" data-href="https://www.facebook.com" data-width="" data-numposts="3" data-order-by="reverse_time"></div>
     
     <h3>Sos el visitante N°</h3>
     <div id="sfcj1bd4z6xqtfddhgps85hrf22aspnqulq"></div>
@@ -55,6 +50,21 @@
     <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=j1bd4z6xqtfddhgps85hrf22aspnqulq" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
     
     <script src="/menu/java/java_2.js"></script>
+    <div class="comment-box">
+      <h2>Comentarios</h2>
+      <!-- Formulario para enviar comentarios -->
+      <div class="comment-form">
+          <input type="text" id="nombre" placeholder="Tu nombre" required>
+          <textarea id="mensaje" rows="4" placeholder="Escribe tu comentario" required></textarea>
+          <button onclick="agregarComentario()">Enviar Comentario</button>
+      </div>
+  
+      <!-- Sección donde se mostrarán los comentarios -->
+      <div class="comments-section" id="commentsSection">
+          <!-- Los comentarios aparecerán aquí -->
+      </div>
+  </div>
+  
   </body>
 
   <footer>
