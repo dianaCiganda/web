@@ -39,7 +39,7 @@ header {
   /* Icono de menú hamburguesa para pantallas pequeñas */
   .menu-icon {
     display: none;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     color: white;
   }

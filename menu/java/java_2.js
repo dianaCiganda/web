@@ -1,11 +1,11 @@
-// // Selección del ícono y el menú
-// const menuIcon = document.getElementById('menuIcon');
-// const menu = document.getElementById('menu');
+// Selección del ícono y el menú
+const menuIcon = document.getElementById('menuIcon');
+const menu = document.getElementById('menu');
 
-// // Alternar visibilidad del menú
-// menuIcon.addEventListener('click', () => {
-//   menu.classList.toggle('active');
-// });
+// Alternar visibilidad del menú
+menuIcon.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
 // const background = document.querySelector(".radio");
 
 // const getRandomNumber = (min, max) => {
