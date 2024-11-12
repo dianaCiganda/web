@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body{
+     background-image: url(../imagenes/meditation-1384758_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+header {
+    margin-bottom: 100px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  /* Icono de menú hamburguesa para pantallas pequeñas */
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Estilos responsive */
+  @media (max-width: 768px) {
+    ul {
+      display: none;
+      flex-direction: column;
+      text-align: center;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+    }
+  
+    ul.active {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+.mensaje{
+    height: 100px;
+    background-color:white;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color: rgb(13, 13, 14) rgb(208, 150, 223);
+    border:rgb(12, 11, 11) solid 2px;
+}
+.img_youtube{
+    height: 100px;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    font-family:inherit;
+    color: rgb(0, 0, 0);
+}
+
+
+.subtitulo{
+    color: black;
+
+}
+
+.column {
+    width: 100%;
+  }
+  
+  body {
+    font-size: 16px;
+}
+
+.tamanio_buda{
+    width: 50%;
+    height: 50%;
+}
+.iconos{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  margin-left: 30%;
+  height: 130px;
+  
+}
+.logo_whats{
+    height: 100px;
+}
+.logo_face{
+width: 100px;
+height: 110px;
+}
+.img_youtube{
+    height: 130px; 
+}
+h1, .titulo,.subtitulo,h2, .lista{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(250, 249, 249);
+    font-size: 15px;
+    background-color: #000000;
+}
+.contador_visitas{
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+}
+.container-slider{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow:0 0 0 10px #671d53,
+                0 15px 50px;
+    position: relative;                         
+}
+.slider{
+    display: flex;
+    height: 500px;
+    width: 900%;
+    margin-left: -100%;
+    
+}
+.slider_section{
+    width: 100%;
+
+}
+.slider_img{
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.slider_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #0f0e0f;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold ;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+color: #671d53;
+}
+.slider_btn:hover{
+    background-color: #ffffff;
+
+}
+.slider_btn_left{
+    left: 10px;
+
+}
+.slider_btn_rigth{
+    right: 10px;
+
+}
+.play-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #e20260; /* Verde */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto al pasar el ratón */
+.play-button:hover {
+  background-color: #060606; /* Verde oscuro */
+  transform: scale(1.1); /* Aumenta el tamaño */
+}
+
+/* Animación de latido */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* Activar animación */
+.play-button {
+  animation: heartbeat 1.5s infinite;
+}
+.radio{
+  text-align: center;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
