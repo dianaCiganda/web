@@ -100,4 +100,12 @@ function mostrarComentarios() {
 }
 
 // Llamar a la función para mostrar los comentarios cuando se carga la página
-window.onload = mostrarComentarios;
+window.onload = function() {
+    mostrarComentarios();
+    
+    // Asignar evento al botón después de cargar la página
+    const btn_enviar = document.getElementById("enviar");
+    if (btn_enviar) {
+        btn_enviar.onclick = agregarComentario;
+    }
+};
