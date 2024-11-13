@@ -56,22 +56,26 @@
     <script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=j1bd4z6xqtfddhgps85hrf22aspnqulq&down=async" async></script>
     <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=j1bd4z6xqtfddhgps85hrf22aspnqulq" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
     
-    <script src="./menu/java/java_2.js"></script>
     <div class="comment-box">
       <h2>Comentarios</h2>
       <!-- Formulario para enviar comentarios -->
       <div class="comment-form">
-          <input type="text" id="nombre" placeholder="Tu nombre" required>
-          <textarea id="mensaje" rows="4" placeholder="Escribe tu comentario" required></textarea>
-          <button id="enviar">Enviar Comentario</button>
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <textarea id="mensaje" rows="4" placeholder="Escribe tu comentario" required></textarea>
+        <button id="enviar">Enviar Comentario</button>
       </div>
-  
+      
       <!-- Sección donde se mostrarán los comentarios -->
       <div class="comments-section" id="commentsSection">
-          <!-- Los comentarios aparecerán aquí -->
+        <!-- Los comentarios aparecerán aquí -->
       </div>
-  </div>
-  
+    </div>
+    <!-- Firebase App (debe ir primero) -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<!-- Firebase Realtime Database -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="./menu/java/java_2.js"></script>
   </body>
 
   <footer>
