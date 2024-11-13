@@ -81,7 +81,7 @@ function mostrarComentarios() {
 
     // Obtener los comentarios de LocalStorage
     const comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
-
+    console.log(comentarios); // Verifica que hay comentarios cargados
     // Limpiar la sección de comentarios
     commentsSection.innerHTML = '';
 
@@ -109,3 +109,4 @@ window.onload = function() {
         btn_enviar.onclick = agregarComentario;
     }
 };
+
