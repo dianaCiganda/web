@@ -45,9 +45,3 @@ menuIcon.addEventListener('click', () => {
 // Configura Firebase
 // Configuración de Firebase
 // Configuración de Firebase
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-dianaciganda-github-io-git-hub-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
