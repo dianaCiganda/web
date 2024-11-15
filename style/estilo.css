@@ -199,45 +199,20 @@ color: #671d53;
     right: 10px;
 
 }
-.play-button {
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+  height:0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 15px 30px;
-  background-color: #e20260; /* Verde */
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 100%;
 }
 
-/* Efecto al pasar el ratón */
-.play-button:hover {
-  background-color: #060606; /* Verde oscuro */
-  transform: scale(1.1); /* Aumenta el tamaño */
-}
-
-/* Animación de latido */
-@keyframes heartbeat {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-}
-
-/* Activar animación */
-.play-button {
-  animation: heartbeat 1.5s infinite;
-}
-.radio{
-  text-align: center;
-   margin-top: 50px;
-   display: flex;
-   justify-content: center;
-}
 .fb-comments iframe {
   filter: invert(1);
 }
