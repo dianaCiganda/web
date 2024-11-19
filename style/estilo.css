@@ -127,8 +127,7 @@ height: 110px;
     height: 130px; 
 }
 h1, .titulo,.subtitulo,h2, .lista{
-    display: flex;
-    justify-content: center;
+text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 footer{
